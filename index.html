@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIMATIK | Informasi Kegiatan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">H</div>
+        <div class="logo-text">
+          <strong>HIMATIK</strong>
+          <span>Himpunan Mahasiswa Informatika</span>
+        </div>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="index.html#kegiatan">Kegiatan</a></li>
+          <li><a href="index.html#tentang">Tentang</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="slider">
+    <input type="radio" name="slide" id="s1" checked>
+    <input type="radio" name="slide" id="s2">
+    <input type="radio" name="slide" id="s3">
+
+    <div class="slides">
+      <div class="slide slide-1">
+        <div class="container">
+          <div class="slide-text">
+            <small>Seminar Nasional • 12 Des 2026</small>
+            <h1>AI &amp; Masa Depan Dunia Kerja</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="detail-kegiatan-1.html" class="btn btn-primary">Lihat Detail</a>
+          </div>
+          <div class="slide-art">🤖</div>
+        </div>
+      </div>
+      <div class="slide slide-2">
+        <div class="container">
+          <div class="slide-text">
+            <small>Lomba • 9 Jan 2027</small>
+            <h1>Hackathon 24 Jam "Code for Society"</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="detail-kegiatan-3.html" class="btn btn-primary">Daftar Sekarang</a>
+          </div>
+          <div class="slide-art">⚡</div>
+        </div>
+      </div>
+      <div class="slide slide-3">
+        <div class="container">
+          <div class="slide-text">
+            <small>Sosial • 17 Jan 2027</small>
+            <h1>Bakti Sosial &amp; Literasi Digital</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="detail-kegiatan-4.html" class="btn btn-primary">Jadi Relawan</a>
+          </div>
+          <div class="slide-art">🤝</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-arrows">
+      <label for="s3" class="prev a1">&#10094;</label><label for="s2" class="next a1">&#10095;</label>
+      <label for="s1" class="prev a2">&#10094;</label><label for="s3" class="next a2">&#10095;</label>
+      <label for="s2" class="prev a3">&#10094;</label><label for="s1" class="next a3">&#10095;</label>
+    </div>
+    <div class="slider-dots">
+      <label for="s1"></label><label for="s2"></label><label for="s3"></label>
+    </div>
+  </section>
+
+  <section class="section" id="kegiatan">
+    <div class="container">
+      <div class="section-title">
+        <h2>Informasi Kegiatan</h2>
+        <p>Ikuti berbagai kegiatan menarik dari HIMATIK</p>
+      </div>
+      <div class="filter">
+        <span class="active">Semua</span><span>Seminar</span><span>Workshop</span><span>Lomba</span><span>Sosial</span><span>Kunjungan</span>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-img bg-1">
+            <span class="card-badge">Seminar</span>🤖
+          </div>
+          <div class="card-body">
+            <div class="card-date">📅 Sabtu, 12 Desember 2026</div>
+            <h3>Seminar Nasional: AI & Masa Depan Dunia Kerja</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="card-meta">
+              <span>📍 Aula Utama Kampus</span>
+              <a href="detail-kegiatan-1.html">Detail &rarr;</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img bg-2">
+            <span class="card-badge">Workshop</span>💻
+          </div>
+          <div class="card-body">
+            <div class="card-date">📅 Sabtu, 19 Desember 2026</div>
+            <h3>Workshop Web Development: HTML, CSS & JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="card-meta">
+              <span>📍 Lab Komputer 3</span>
+              <a href="detail-kegiatan-2.html">Detail &rarr;</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img bg-3">
+            <span class="card-badge">Lomba</span>⚡
+          </div>
+          <div class="card-body">
+            <div class="card-date">📅 9 – 10 Januari 2027</div>
+            <h3>Hackathon 24 Jam "Code for Society"</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="card-meta">
+              <span>📍 Co-working Space Kampus</span>
+              <a href="detail-kegiatan-3.html">Detail &rarr;</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img bg-4">
+            <span class="card-badge">Sosial</span>🤝
+          </div>
+          <div class="card-body">
+            <div class="card-date">📅 Minggu, 17 Januari 2027</div>
+            <h3>Bakti Sosial & Pelatihan Literasi Digital</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="card-meta">
+              <span>📍 Desa Binaan</span>
+              <a href="detail-kegiatan-4.html">Detail &rarr;</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img bg-5">
+            <span class="card-badge">Lomba</span>🎨
+          </div>
+          <div class="card-body">
+            <div class="card-date">📅 1 – 28 Februari 2027</div>
+            <h3>Lomba UI/UX Design Antar Mahasiswa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="card-meta">
+              <span>📍 Online (final di Aula Kampus)</span>
+              <a href="detail-kegiatan-5.html">Detail &rarr;</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img bg-6">
+            <span class="card-badge">Kunjungan</span>🏢
+          </div>
+          <div class="card-body">
+            <div class="card-date">📅 Kamis, 4 Maret 2027</div>
+            <h3>Company Visit ke Perusahaan Teknologi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="card-meta">
+              <span>📍 Kantor perusahaan teknologi</span>
+              <a href="detail-kegiatan-6.html">Detail &rarr;</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="tentang">
+    <div class="container">
+      <div>
+        <h2>Tentang HIMATIK</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#kegiatan" class="btn btn-outline">Lihat Semua Kegiatan</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>25+</strong><span>Kegiatan per tahun</span></div>
+        <div class="stat"><strong>1.200</strong><span>Peserta terlibat</span></div>
+        <div class="stat"><strong>15</strong><span>Mitra industri</span></div>
+        <div class="stat"><strong>8</strong><span>Divisi aktif</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="kontak">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-brand">HIMATIK</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <ul>
+          <li>himatik@kampus.ac.id</li>
+          <li>Jl. Kampus Informatika No. 1, Jakarta</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Yayan Hidayatulloh - 411242020
+    </div>
+  </footer>
+
+</body>
+</html>
